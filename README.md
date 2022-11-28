@@ -13,7 +13,7 @@ Also the material order varied from structure to structure in the ifc file. It w
 ## Furniture or not?
 Furniture in a room has a large impact on the reverberation time in a room. Just think of the huge difference it makes to the room acoustics in an empty room contra a furnitured room. Therefore, it would of course be nice to implement this to the code. Our idea is that the user should be able to hear both examples i.e. a furnitured room and a non-funitured room. 
 
-## Comparisons to the SBI anvisninger
+## Comparisons to the SBI instructions
 It could be added to the code if the chosen room with its corresponding reverberation time matches the SBI-instructions. This would give the code output more value for the user since meeting the SBI instructions should be an aim for the building design. 
 
 ## An html file as output would be nice
