@@ -3,7 +3,7 @@
 ## Project reflections
 
 ### Workflow experiences
-Our code works and it provides the output that was intented from the beginning. However, many simplifications regarding the calculations have been made along the way. We had to start simple and then add more details later. Our code hasn't been tested to other ifc files, but it will probably need some adjustment, since the code is very file specific. 
+Our code works and it provides the output that was intented from the beginning. However, many simplifications and assumptions regarding the calculations have been made along the way. We had to start simple and then add more details later. Our code hasn't been tested to other ifc files, but it will probably need some adjustment, since the code is very file specific. 
 
 ### Area geometry
 In our calculation we extracted the area of the walls from the floor area and height of the room. The height is in the program given by floor-to-floor and we subtracted with 0.5 to get the height in floor-to-ceiling. This could be done more accurately and generalizable by subtracting with the slab thickness. The walls are calculated assuming it is a square room, since we don't have room dimensions. Using Sabine's equation this is not a big issue since this equation doesn't differentiate on the room geometry, but in acoustics the geometry has an important impact on the calculations and auralizations (how a room sounds). For future work it would be useful to include scattering and room diffraction in the calculation, this is however something current softwares are still struggling with and is highly advanced.
